@@ -22,5 +22,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::prefix('numbers')->group(function (){
     Route::get('get', [NumbersController::class, 'getNumber']);
-    Route::post('all', [NumbersController::class, 'getNumbers']);
+    Route::get('all', [NumbersController::class, 'getAllNumbers']);
 });
