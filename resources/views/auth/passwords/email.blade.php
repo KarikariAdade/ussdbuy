@@ -65,7 +65,7 @@
                     <!-- Logo -->
                     <div class="app-brand justify-content-center">
                         <a href="{{ route('home') }}" class="app-brand-link gap-2">
-                            <span class="app-brand-text demo text-body fw-bolder" style="text-transform: uppercase;">USSDPay</span>
+                            <span class="app-brand-text demo text-body fw-bolder" style="text-transform: uppercase;">USSDBuy</span>
                         </a>
                     </div>
                     <!-- /Logo -->
