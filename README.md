@@ -4,8 +4,6 @@
 1. Clone the Project<br><br>
 2. Open project directory in your terminal and enter the following commands <br><br>
     <code>composer install</code> to install required packages<br><br>
-    <code>npm install</code> to install node packages<br><br>
-    <code>npm run dev</code> to compile node packages<br><br>
     <code>cp .env.example .env</code> to create a copy of the env file<br>
 3. Configure your database in the .env file created<br><br>
 4. Run migrations <code> php artisan migrate </code><br><br>
